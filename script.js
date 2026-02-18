@@ -1,5 +1,5 @@
 // ══════════════════════════════════════════
-// CONFIG — меняй здесь
+// CONFIG — меняй здесь 
 // ══════════════════════════════════════════
 const CFG = {
   particleCount  : 200,
@@ -894,3 +894,4 @@ snakeCanvas.addEventListener('touchend',e=>{
 // Инициализация
 applyVisibility();
 applyLang();
+
