@@ -34,13 +34,11 @@ const INFO_LINES = {
   en: [
     '> whoami',
     '  Hello, im Decanon.',
-    '  Im trying to do data engineering, thats all for now.','',
     '> _',
   ],
   ru: [
     '> whoami',
     '  Привет, я Decanon.',
-    '  Занимаюсь дата-инжинирингом, пока что всё.','',
     '> _',
   ],
 };
@@ -894,4 +892,5 @@ snakeCanvas.addEventListener('touchend',e=>{
 // Инициализация
 applyVisibility();
 applyLang();
+
 
