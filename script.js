@@ -2,7 +2,7 @@
 // CONFIG — меняй здесь 
 // ══════════════════════════════════════════
 const CFG = {
-  particleCount  : 200,
+  particleCount  : 250,
   particleSpeed  : 6,
   connectDist    : 200,
   bubbleRatio    : 22,
@@ -33,12 +33,12 @@ let currentLang = 'en'; // 'en' | 'ru'
 const INFO_LINES = {
   en: [
     '> whoami',
-    '  Hello, im Decanon.',
+    '  Hello, im Decanon.', '',
     '> _',
   ],
   ru: [
     '> whoami',
-    '  Привет, я Decanon.',
+    '  Привет, я Decanon.', '',
     '> _',
   ],
 };
@@ -892,5 +892,6 @@ snakeCanvas.addEventListener('touchend',e=>{
 // Инициализация
 applyVisibility();
 applyLang();
+
 
 
