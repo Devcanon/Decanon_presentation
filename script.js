@@ -22,7 +22,7 @@ const CFG = {
 
   linkGithub     : false,
   linkSteam      : true,
-  linkContact    : false,
+  linkContact    : true,
 };
 
 // ══════════════════════════════════════════
@@ -892,6 +892,7 @@ snakeCanvas.addEventListener('touchend',e=>{
 // Инициализация
 applyVisibility();
 applyLang();
+
 
 
 
