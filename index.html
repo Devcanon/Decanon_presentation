@@ -17,67 +17,14 @@
 
   <div id="glitch-overlay"></div>
   <div id="scanlines"></div>
-  <div id="hk-tl" class="hk-corner">SYS://DECANON_OS v2.5.1</div>
-  <div id="hk-tr" class="hk-corner"><span id="hk-time"></span></div>
-  <div id="hk-bl" class="hk-corner">STATUS: <span id="hk-status">IDLE</span></div>
-  <div id="hk-br" class="hk-corner">MEM: <span id="hk-mem"></span>MB</div>
 
-  <div id="main-screen">
-    <button id="enter-btn"><span class="btn-text">EXEC</span></button>
-  </div>
-
-  <div id="info-screen">
-    <div id="info-container">
-
-      <div id="widget-btns">
-        <button class="widget-btn active-tab" id="btn-info">⬡ <span class="t" data-en="INFO" data-ru="ИНФО">INFO</span></button>
-        <button class="widget-btn" id="btn-pipeline">⬡ PIPELINE</button>
-        <button class="widget-btn" id="btn-snake">⬢ SNAKE</button>
-        <button class="widget-btn" id="btn-mines">✦ <span class="t" data-en="MINESWEEPER" data-ru="САПЁР">MINESWEEPER</span></button>
-        <button class="widget-btn" id="btn-hacker">⚡ <span class="t" data-en="HACKER" data-ru="ХАКЕР">HACKER</span></button>
-        <button class="widget-btn lang-btn" id="btn-lang">EN / RU</button>
-      </div>
-
-      <button id="close-btn">✕</button>
-
-      <div id="layer-info" class="layer active">
-        <div id="typed-output"></div>
-        <div id="info-links" class="hidden">
-          <a id="link-github" href="https://github.com/decanon" target="_blank" class="info-link" data-icon="⬡">GitHub</a>
-          <a id="link-steam" href="https://steamcommunity.com/id/decanon" target="_blank" class="info-link" data-icon="▶">Steam</a>
-          <a id="link-contact" href="mailto:hello@decanon.ru" class="info-link" data-icon="◈"><span class="t" data-en="Contact" data-ru="Контакт">Contact</span></a>
-        </div>
-      </div>
-
-      <div id="layer-pipeline" class="layer">
-        <div id="pipeline-output"></div>
-        <button id="pipeline-run-btn">▶ RUN PIPELINE</button>
-      </div>
-
-      <div id="layer-snake" class="layer">
-        <canvas id="snake-canvas"></canvas>
-        <div id="snake-ui">
-          <span id="snake-score">SCORE: 0</span>
-          <span id="snake-status"><span class="t" data-en="PRESS SPACE / TAP TO START" data-ru="ПРОБЕЛ / ТАП — СТАРТ">PRESS SPACE / TAP TO START</span></span>
-        </div>
-      </div>
-
-      <div id="layer-mines" class="layer">
-        <div id="mines-ui">
-          <span id="mines-info">💣 <span id="mines-left">0</span></span>
-          <button id="mines-restart-btn">↺ <span class="t" data-en="NEW GAME" data-ru="НОВАЯ ИГРА">NEW GAME</span></button>
-          <span id="mines-status"></span>
-        </div>
-        <div id="mines-board"></div>
-      </div>
-
-    </div>
+  <div id="center">
+    <p id="moved-text">Теперь сайт размещен тут</p>
+    <a id="site-btn" href="https://decanon.ru" target="_blank" rel="noopener noreferrer">
+      decanon.ru
+    </a>
   </div>
 
   <script src="script.js"></script>
 </body>
 </html>
-
-
-
-
